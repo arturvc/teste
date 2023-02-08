@@ -1,0 +1,62 @@
+body {
+    background-color: #fff6e7;
+    color: #ad8a68;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0px;
+}
+
+h1 {
+    color: #ba8345;
+}
+
+
+.caixaMenu {
+    background-color: #ad8a68;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#itemMenu {
+    padding: 10px;
+    flex-basis: 50px;
+}
+
+
+.caixaConteudo {
+    background-color: #dfe0df;
+    margin: 0px;
+    min-height: calc(100vh - 90px);
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+#mapaLeaflet {
+    flex: 1;
+}
+
+#conteudoTexto {
+    padding: 20px;
+    max-width: 800px;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: #ba8345;
+    text-decoration: none;
+}
+
+#itemMenu a:link,
+#itemMenu a:visited,
+#itemMenu a:active {
+    color: #dfe0df;
+    text-decoration: none;
+}
+#itemMenu a:hover{
+    text-decoration: underline;
+}
