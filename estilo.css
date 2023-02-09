@@ -5,18 +5,17 @@ body {
     color: #ad8a68;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* Configura o estilo do cabeçalho <h1>. */
-h1 {
-    color: #ba8345;
+.logo {
+    padding: 0px;
+    margin: 0px;
+    color: #fff6e7;
 }
-
 
 /* Estilo para os elementos de navegação da tag <nav>. */
 nav {
     margin: 0px;
-    padding: 0px 10px 00px 10px;
-    background-color: #666;
+    padding: 0px 2%;
+    background-color: #ad8a68;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +25,7 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 0px 20px;
-    height: 100%;
+    white-space: nowrap;
 }
 
 nav ul li a {
@@ -36,13 +35,6 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
-}
-
-.logo {
-    padding: 0px;
-    margin: 0px;
-    color: #fff6e7;
-
 }
 
 /* Classe de estilo da caixa de conteúdo, que contém o mapa em 'index.html' e texto em 'sobre.html'. */
@@ -62,15 +54,3 @@ nav ul li a:hover {
     margin: 20px;
     padding: 20px;
 }
-
-/* Configura o estilo do link <a> dos ítens do menu. */
-/* a:link,
-a:visited,
-a:active {
-    color: #fff6e7;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-} */
