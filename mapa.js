@@ -7,4 +7,5 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(meuMapa);
 
-L.marker([0, 0]).bindPopup("Coordenadas latitude 0.0 e longitude 0.0").addTo(meuMapa);
+// Adiciona um marcador nas coordenadas 0,0.
+L.marker([0, 0]).bindPopup("Este marcador está nas coordenadas de latitude 0.0 e longitude 0.0").addTo(meuMapa);

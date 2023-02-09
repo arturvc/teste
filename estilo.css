@@ -1,67 +1,76 @@
+/* Configurações do <body> que abrangem toda a página. */
 body {
-    background-color: #fff6e7;
+    margin: 0px;
+    padding: 0px;
     color: #ad8a68;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px;
-    padding: 0px;
 }
 
+/* Configura o estilo do cabeçalho <h1>. */
 h1 {
     color: #ba8345;
 }
 
 
-.caixaMenu {
-    background-color: #ad8a68;
-    color: #fff6e7;
-    height: 40px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#itemMenu {
-    padding: 10px;
-    flex-basis: 50px;
-}
-
-.caixaConteudo {
-    background-color: #dfe0df;
+/* Estilo para os elementos de navegação da tag <nav>. */
+nav {
     margin: 0px;
-    min-height: calc(100vh - 90px);
+    padding: 0px 10px 00px 10px;
+    background-color: #666;
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-#mapaLeaflet {
-    flex: 1;
+    justify-content: space-between;
+    align-items: center;
 }
 
-ul{
+nav ul li {
     list-style-type: none;
-}
-#conteudoTexto {
-    padding: 20px;
-    margin: 10px;
-    max-width: 800px;
+    display: inline-block;
+    padding: 0px 20px;
+    height: 100%;
 }
 
-a:link,
-a:hover,
-a:visited,
-a:active {
-    color: #ba8345;
-    text-decoration: none;
-}
-
-#itemMenu a:link,
-#itemMenu a:visited,
-#itemMenu a:active {
+nav ul li a {
     color: #fff6e7;
     text-decoration: none;
 }
 
-#itemMenu a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
+
+.logo {
+    padding: 0px;
+    margin: 0px;
+    color: #fff6e7;
+
+}
+
+/* Classe de estilo da caixa de conteúdo, que contém o mapa em 'index.html' e texto em 'sobre.html'. */
+.caixaConteudo {
+    background-color: #dfe0df;
+    min-height: calc(100vh - 54px);
+    display: flex;
+}
+
+/* Identidade de estilo para a <div> que contém o mapa. */
+#mapaLeaflet {
+    width: 100%;
+}
+
+/* Identidade de estilo para a <div> que contém texto. */
+#conteudoTexto {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Configura o estilo do link <a> dos ítens do menu. */
+/* a:link,
+a:visited,
+a:active {
+    color: #fff6e7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+} */
